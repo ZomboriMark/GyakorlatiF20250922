@@ -1,6 +1,7 @@
 import './css/general.css';
 import Hello from './components/Hello';
-import Flip from './components/Flip';
+import {Flip, Flip2} from './components/Flip';
+
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <h1>Második React app</h1>
       <Hello/>
       <Flip/>
+      <Flip2/>
     </>
   )
 }

@@ -16,4 +16,14 @@ function Flip(){
         </>
     )
 }
-export default Flip
+
+function Flip2(){
+    var hit = Math.random() < 0.5;
+    if (hit){
+        return<Piros/>
+    } else {
+        return <Fekete/>
+    }
+}
+
+export {Flip,Flip2}
