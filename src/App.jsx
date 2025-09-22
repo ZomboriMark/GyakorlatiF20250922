@@ -3,6 +3,7 @@ import Hello from './components/Hello';
 import {Flip, Flip2} from './components/Flip';
 import Targyak from './components/Targyak';
 import Szamlalo from './components/Szamlalo';
+import Urlap from './components/Urlap';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Flip2/>
       <Targyak/>
       <Szamlalo/>
+      <Urlap/>
     </>
   )
 }
