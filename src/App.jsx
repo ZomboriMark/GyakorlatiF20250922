@@ -2,6 +2,7 @@ import './css/general.css';
 import Hello from './components/Hello';
 import {Flip, Flip2} from './components/Flip';
 import Targyak from './components/Targyak';
+import Szamlalo from './components/Szamlalo';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Flip/>
       <Flip2/>
       <Targyak/>
+      <Szamlalo/>
     </>
   )
 }
