@@ -1,6 +1,7 @@
 import './css/general.css';
 import Hello from './components/Hello';
 import {Flip, Flip2} from './components/Flip';
+import Targyak from './components/Targyak';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Hello/>
       <Flip/>
       <Flip2/>
+      <Targyak/>
     </>
   )
 }
